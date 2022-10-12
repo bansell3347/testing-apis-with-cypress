@@ -1,0 +1,23 @@
+{
+  "name": "testing-apis-with-cypress",
+  "version": "1.0.0",
+  "description": "Cypress api testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bansell3347/testing-apis-with-cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bansell3347/testing-apis-with-cypress/issues"
+  },
+  "homepage": "https://github.com/bansell3347/testing-apis-with-cypress#readme",
+  "dependencies": {
+    "cypress": "^10.10.0"
+  }
+}
