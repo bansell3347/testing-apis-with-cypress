@@ -20,7 +20,7 @@ describe('TODO api testing', () => {
             });
         });
     });
-    it('deletes Todo items - DELETE', () => {
+    xit('deletes Todo items - DELETE', () => {
         cy.request('DELETE', `/todos/${todoItem}`).as('todoRequest');
         // deletes Todo item with id = 9
         cy.get('@todoRequest').then(todos => {
